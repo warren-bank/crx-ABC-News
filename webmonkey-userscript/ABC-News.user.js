@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ABC News
 // @description  Watch videos in external player.
-// @version      1.0.0
+// @version      1.0.1
 // @match        *://abcnews.go.com/live*
 // @match        *://*.abcnews.go.com/live*
 // @icon         https://s.abcnews.com/assets/dtci/images/favicon.ico
@@ -558,13 +558,13 @@ var reinitialize_dom = function() {
       '  list-style: none;',
       '  margin: 0;',
       '  padding: 0;',
+      '  padding-left: 1em;',
       '}',
 
       'div.' + constants.dom_classes.div_episodes + ' > ul > li {',
       '  list-style: none;',
-      '  margin-top: 0.5em;',
-      '  border-top: 1px solid #999;',
-      '  padding-top: 0.5em;',
+      '  padding-bottom: 0.5em;',
+      '  border-bottom: 1px solid #999;',
       '}',
 
       'div.' + constants.dom_classes.div_episodes + ' > ul > li > table {',
