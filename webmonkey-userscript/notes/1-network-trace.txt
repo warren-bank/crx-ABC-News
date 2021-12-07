@@ -1,0 +1,3225 @@
+--------------------------------------------------------------------------------
+
+https://abcnews.go.com/
+https://abcnews.go.com/Live
+
+https://abcnews.go.com/Video
+https://abcnews.go.com/live/video/special-live-08
+https://abcnews.go.com/live/video/special-live-10
+
+--------------------------------------------------------------------------------
+// https://abcnews.go.com/Live
+// https://abcnews.go.com/video/itemfeed?id=abc_live11
+
+----------------------------------------
+// XHR response:
+
+{
+  "@attributes": {
+    "version": "2.0"
+  },
+  "channel": {
+    "category": "",
+    "pubDate": "",
+    "language": "en",
+    "ttl": "10",
+    "item": {
+      "shareEnabled": false,
+      "media-group": {
+        "media-content": [{
+            "temporalType": "live",
+            "media-category": {
+              "@attributes": {
+                "schema": "http:\/\/mrss.akamai.com\/user_agent_hint",
+                "label": "HDS_ALL"
+              }
+            },
+            "@attributes": {
+              "isLive": "true",
+              "url": "https:\/\/abclive2-lh.akamaihd.net\/z\/abc_live11@423404\/manifest.f4m",
+              "type": "video\/f4m",
+              "medium": "video",
+              "duration": 0
+            }
+          },
+          {
+            "temporalType": "live",
+            "media-category": {
+              "@attributes": {
+                "schema": "http:\/\/mrss.akamai.com\/user_agent_hint",
+                "label": "HLS_ALL"
+              }
+            },
+            "@attributes": {
+              "isLive": "true",
+              "url": "https:\/\/content.uplynk.com\/channel\/3324f2467c414329b3b0cc5cd987b6be.m3u8?rays=hjigfedcba&ad.flex=15&ad.access_level=0&expand=drmOff&v=3&ad.adunit=\/abc-news\/abcnews.com\/web\/video",
+              "type": "application\/x-mpegURL",
+              "medium": "video",
+              "duration": 0
+            }
+          },
+          {
+            "temporalType": "live",
+            "media-category": {
+              "@attributes": {
+                "schema": "http:\/\/mrss.akamai.com\/user_agent_hint",
+                "label": "HLS_ALL"
+              }
+            },
+            "@attributes": {
+              "isLive": "true",
+              "url": "https:\/\/abclive2-lh.akamaihd.net\/i\/abc_preview11@425086\/master.m3u8",
+              "type": "application\/x-mpegURL",
+              "medium": "video",
+              "duration": 0
+            }
+          }
+        ],
+        "media-title": "GMA3: What You Need to Know",
+        "media-description": "GMA3: What You Need to Know",
+        "media-subTitle": {
+          "@attributes": {
+            "type": "text\/cea-708",
+            "lang": "en"
+          }
+        },
+        "media-thumbnail": {
+          "@attributes": {
+            "url": "https:\/\/keyframe-cdn.abcnews.com\/streamprovider11.jpg",
+            "width": "640",
+            "height": "360"
+          }
+        },
+        "media-embed": {
+          "@attributes": {
+            "url": "https:\/\/abcnews.go.com\/video\/embed",
+            "width": "640",
+            "height": "360"
+          },
+          "media-param": {
+            "@attributes": {
+              "name": "type"
+            },
+            "#text": "text\/javascript"
+          }
+        }
+      },
+      "temporalType": "live",
+      "thumb": "https:\/\/keyframe-cdn.abcnews.com\/streamprovider11.jpg",
+      "link": "https:\/\/abcnews.go.com\/live\/video\/special-live-11",
+      "description": "",
+      "aspectRatio": null,
+      "title": "ABC News Live",
+      "omniture": {
+        "channel": "abcn:live",
+        "event1": "event1",
+        "prop4": "video",
+        "prop3": "11|ABC News Live|sec_live|ABC News Live",
+        "eVar2": "11|ABC News Live|sec_live|ABC News Live",
+        "prop25": "abc_live11",
+        "eVar12": "abc_live11",
+        "prop18": "player|videoindex",
+        "eVar15": "player|videoindex",
+        "prop16": "none",
+        "prop31": "abcn:live",
+        "prop32": "",
+        "prop33": "",
+        "prop34": "",
+        "eVar32": "",
+        "event12": "event12",
+        "eVar20": "none"
+      },
+      "transcript": "",
+      "videoContentType": "live",
+      "freewheel": {
+        "videoAssetId": "news-5dff07c1-c587-46e4-b9ea-59d24f21a261+1566831246721"
+      },
+      "comscore": {
+        "show": ""
+      },
+      "nielsenDate": "20211206 16:09:45",
+      "timestamp": "Mon, 06 Dec 2021 16:09:45 -0500",
+      "kalturaId": null,
+      "canonicalUrl": "https:\/\/abcnews.go.com\/live\/video\/special-live-11",
+      "outbrainSrcUrl": "",
+      "pubDate": 1638824985000,
+      "adTags": null,
+      "isLiveVideo": true,
+      "guid": "abc_live11",
+      "shareUrl": "https:\/\/abcnews.go.com\/live\/video\/special-live-11",
+      "category": "live",
+      "unicorn": "",
+      "mediatype": "akamai live stream"
+    }
+  }
+}
+
+----------------------------------------
+// DOM:
+
+<script type='text/javascript' >
+  window['__abcnews__'] = {
+    "app": {
+      "uid": "abcnews",
+      "mode": "universal",
+      "apiEnv": "prod",
+      "envName": "prod",
+      "cdnPath": "//assets-cdn.abcnews.com/abcnews/8dbbd90ffa07-release-11-30-2021.4/client",
+      "webpack": {},
+      "nochunks": false,
+      "allowMocks": true,
+      "mockDataPort": 1981,
+      "inclPgCSS": true,
+      "assets": {
+        "scripts": ["//assets-cdn.abcnews.com/abcnews/8dbbd90ffa07-release-11-30-2021.4/client/abcnews.js", "//assets-cdn.abcnews.com/abcnews/8dbbd90ffa07-release-11-30-2021.4/client/section.js"],
+        "stylesheets": ["//assets-cdn.abcnews.com/abcnews/8dbbd90ffa07-release-11-30-2021.4/client/css/abcnews.css", "//assets-cdn.abcnews.com/abcnews/8dbbd90ffa07-release-11-30-2021.4/client/css/section.css"]
+      },
+      "device": "desktop",
+      "edition": {
+        "key": "",
+        "translations": {}
+      },
+      "flags": {
+        "banner": true,
+        "nav": true,
+        "footer": true
+      },
+      "tms": {
+        "enabled": true,
+        "env": "dev",
+        "tag": "https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js",
+        "tagNS": "Bootstrapper",
+        "emitEvent": "tms:ready",
+        "loadScript": false,
+        "frameTag": "https://dcf.espn.com/TWDC-DTCI/embed_privacy_prod/Bootstrap.js"
+      },
+      "environment": "prod",
+      "debug": {
+        "on": false
+      }
+    },
+    "ads": {},
+    "analytics": {},
+    "routing": {
+      "location": {
+        "pathname": "/Live/",
+        "port": "",
+        "hash": "",
+        "path": "/Live/",
+        "host": "",
+        "protocol": "",
+        "params": "",
+        "query": {}
+      },
+      "params": {
+        "section": "Live",
+        "pageType": "section",
+        "indexType": "section"
+      }
+    },
+    "page": {
+      "key": "",
+      "title": "",
+      "type": "section",
+      "meta": {
+        "title": "ABC News Live - 24/7 live news stream",
+        "description": "Watch ABC News live news stream and get 24/7 latest, breaking news coverage, and live video.",
+        "keywords": "Live News Stream, live updates, abc news",
+        "canonical": "https://abcnews.go.com/Live/",
+        "social": {
+          "title": "ABC News – Breaking News, Latest News, Headlines & Videos",
+          "description": "Your trusted source for breaking news, analysis, exclusive interviews, headlines, and videos at ABCNews.com",
+          "ogUrl": "https://abcnews.go.com/",
+          "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
+          "pageType": "section",
+          "id": "",
+          "type": "website"
+        },
+        "robots": "index, follow"
+      },
+      "content": {
+        "shell": {
+          "configData": {
+            "key": "survey_popup_config-75570648",
+            "graphic_url": "https://s.abcnews.com/assets/dtci/icomoon/svg/logo.svg",
+            "body": "We’d like to ask you a few questions about your viewing of ABC News Live, and are looking to talk to a few of our viewers about their thoughts on our shows.  If you’re interested in participating in this study, please take the survey from our recruiting partners so we can contact you about participating.  Thank you!",
+            "button_url": "https://tv.focusgroup.com/",
+            "button_text": "Yes, I'll take the survey",
+            "enablePlethora": false
+          }
+        },
+        "section": {
+          "bands": [{
+            "displayName": "",
+            "type": "lead",
+            "subType": "RSIdxFeed",
+            "viewProps": {
+              "addOnClass": "topvideos",
+              "class": "topvideos",
+              "backgroundImage": "https://s.abcnews.com/images/Video/vid_index_bg.jpg"
+            },
+            "blocks": [{
+              "displayName": "",
+              "componentKey": "leadLiveVideoBlock",
+              "type": "livevideoHero",
+              "items": [{
+                "isMainLiveStream": true,
+                "airings": [{
+                  "href": "airings/213f8342-1884-4b36-aa9b-44a3ab2ae19f",
+                  "createdOn": "2021-11-29T21:52:59.319+0000",
+                  "lastModifiedOn": "2021-12-06T21:00:30.126+0000",
+                  "artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/213f8342-1884-4b36-aa9b-44a3ab2ae19f",
+                  "externalId": "ncs.airingId:a113861621",
+                  "productLinks": {
+                    "web": "http://abcnews.go.com/live",
+                    "mobile": "abcnews://link/video,41463246"
+                  },
+                  "id": "213f8342-1884-4b36-aa9b-44a3ab2ae19f",
+                  "program": {
+                    "href": "./programs/2d00312f-fd42-447a-a759-dd978daa464d",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/programs/2d00312f-fd42-447a-a759-dd978daa464d",
+                    "externalId": "ncs.productionId:60238326",
+                    "id": "2d00312f-fd42-447a-a759-dd978daa464d",
+                    "title": "GMA3: What You Need to Know",
+                    "firstPresented": "2021-12-06T21:00:00.000+0000"
+                  },
+                  "network": {
+                    "href": "./networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "id": "86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "name": "abc_news_live"
+                  },
+                  "playableUrl": "http://watch.auth.api.espn.go.com/video/auth/media/213f8342-1884-4b36-aa9b-44a3ab2ae19f/asset",
+                  "channel": {
+                    "href": "./channels/213f8342-1884-4b36-aa9b-44a3ab2ae19f",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/channels/213f8342-1884-4b36-aa9b-44a3ab2ae19f",
+                    "id": "213f8342-1884-4b36-aa9b-44a3ab2ae19f"
+                  },
+                  "start": "2021-12-06T21:00:00.000+0000",
+                  "end": "2021-12-06T22:00:00.000+0000",
+                  "timeDescription": "Airing LIVE"
+                }, {
+                  "href": "airings/25a5e616-6e16-4851-b1fa-9dbb34098e9a",
+                  "createdOn": "2021-11-29T21:52:59.897+0000",
+                  "lastModifiedOn": "2021-11-29T22:44:56.237+0000",
+                  "artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/25a5e616-6e16-4851-b1fa-9dbb34098e9a",
+                  "externalId": "ncs.airingId:a113861130",
+                  "id": "25a5e616-6e16-4851-b1fa-9dbb34098e9a",
+                  "program": {
+                    "href": "./programs/1453ab40-f526-4ce2-8ba9-729be4451a33",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/programs/1453ab40-f526-4ce2-8ba9-729be4451a33",
+                    "externalId": "ncs.productionId:60238058",
+                    "id": "1453ab40-f526-4ce2-8ba9-729be4451a33",
+                    "title": "The View",
+                    "firstPresented": "2021-12-06T22:00:00.000+0000"
+                  },
+                  "network": {
+                    "href": "./networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "id": "86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "name": "abc_news_live"
+                  },
+                  "start": "2021-12-06T22:00:00.000+0000",
+                  "end": "2021-12-06T23:00:00.000+0000",
+                  "timeDescription": "Airing LIVE"
+                }, {
+                  "href": "airings/c6e0baa6-ecd9-4fb5-a3a2-1d1af6449fbf",
+                  "createdOn": "2021-12-01T17:55:49.466+0000",
+                  "lastModifiedOn": "2021-12-06T21:00:30.117+0000",
+                  "artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/c6e0baa6-ecd9-4fb5-a3a2-1d1af6449fbf",
+                  "externalId": "ncs.airingId:a113861620",
+                  "id": "c6e0baa6-ecd9-4fb5-a3a2-1d1af6449fbf",
+                  "program": {
+                    "href": "./programs/2d00312f-fd42-447a-a759-dd978daa464d",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/programs/2d00312f-fd42-447a-a759-dd978daa464d",
+                    "externalId": "ncs.productionId:60238326",
+                    "id": "2d00312f-fd42-447a-a759-dd978daa464d",
+                    "title": "GMA3: What You Need to Know",
+                    "firstPresented": "2021-12-06T21:00:00.000+0000"
+                  },
+                  "network": {
+                    "href": "./networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "id": "86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "name": "abc_news_live"
+                  },
+                  "start": "2021-12-06T23:00:00.000+0000",
+                  "end": "2021-12-07T00:00:00.000+0000",
+                  "timeDescription": "Rerun"
+                }, {
+                  "href": "airings/7c9606c7-43f4-480a-badb-a084e65a0019",
+                  "createdOn": "2021-12-01T17:55:53.411+0000",
+                  "lastModifiedOn": "2021-12-01T17:56:02.023+0000",
+                  "artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/7c9606c7-43f4-480a-badb-a084e65a0019",
+                  "externalId": "ncs.airingId:a113858731",
+                  "id": "7c9606c7-43f4-480a-badb-a084e65a0019",
+                  "program": {
+                    "href": "./programs/4b780f45-2d64-4f8e-aac1-f78dc6232405",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/programs/4b780f45-2d64-4f8e-aac1-f78dc6232405",
+                    "externalId": "ncs.productionId:60236441",
+                    "id": "4b780f45-2d64-4f8e-aac1-f78dc6232405",
+                    "title": "ABCNL Prime with Linsey Davis",
+                    "firstPresented": "2021-12-07T00:00:00.000+0000"
+                  },
+                  "network": {
+                    "href": "./networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "id": "86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "name": "abc_news_live"
+                  },
+                  "start": "2021-12-07T00:00:00.000+0000",
+                  "end": "2021-12-07T01:30:00.000+0000",
+                  "timeDescription": "Airing LIVE"
+                }, {
+                  "href": "airings/f2e66708-2376-4c4a-bd8c-f4af83fd4d29",
+                  "createdOn": "2021-12-01T17:55:50.057+0000",
+                  "lastModifiedOn": "2021-12-01T17:55:53.507+0000",
+                  "artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/f2e66708-2376-4c4a-bd8c-f4af83fd4d29",
+                  "externalId": "ncs.airingId:a113898718",
+                  "id": "f2e66708-2376-4c4a-bd8c-f4af83fd4d29",
+                  "program": {
+                    "href": "./programs/4d5ae307-c359-4bf4-baee-914d5d1a2b1f",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/programs/4d5ae307-c359-4bf4-baee-914d5d1a2b1f",
+                    "externalId": "ncs.productionId:60250251",
+                    "id": "4d5ae307-c359-4bf4-baee-914d5d1a2b1f",
+                    "title": "Nightline",
+                    "firstPresented": "2021-12-07T01:30:00.000+0000"
+                  },
+                  "network": {
+                    "href": "./networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "id": "86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "name": "abc_news_live"
+                  },
+                  "start": "2021-12-07T01:30:00.000+0000",
+                  "end": "2021-12-07T02:00:00.000+0000",
+                  "timeDescription": "Airing LIVE"
+                }, {
+                  "href": "airings/77ff2528-bcc4-482b-83aa-61b6188af198",
+                  "createdOn": "2021-12-01T17:55:55.586+0000",
+                  "lastModifiedOn": "2021-12-01T17:56:02.028+0000",
+                  "artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/77ff2528-bcc4-482b-83aa-61b6188af198",
+                  "externalId": "ncs.airingId:a113858729",
+                  "id": "77ff2528-bcc4-482b-83aa-61b6188af198",
+                  "program": {
+                    "href": "./programs/4b780f45-2d64-4f8e-aac1-f78dc6232405",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/programs/4b780f45-2d64-4f8e-aac1-f78dc6232405",
+                    "externalId": "ncs.productionId:60236441",
+                    "id": "4b780f45-2d64-4f8e-aac1-f78dc6232405",
+                    "title": "ABCNL Prime with Linsey Davis",
+                    "firstPresented": "2021-12-07T00:00:00.000+0000"
+                  },
+                  "network": {
+                    "href": "./networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "id": "86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "name": "abc_news_live"
+                  },
+                  "start": "2021-12-07T02:00:00.000+0000",
+                  "end": "2021-12-07T03:30:00.000+0000",
+                  "timeDescription": "Rerun"
+                }, {
+                  "href": "airings/0728d43b-bbe4-478e-93ca-ba899b488fc2",
+                  "createdOn": "2021-12-01T17:55:50.526+0000",
+                  "lastModifiedOn": "2021-12-01T17:55:53.742+0000",
+                  "artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/0728d43b-bbe4-478e-93ca-ba899b488fc2",
+                  "externalId": "ncs.airingId:a114234907",
+                  "id": "0728d43b-bbe4-478e-93ca-ba899b488fc2",
+                  "program": {
+                    "href": "./programs/c3539fca-7ef5-4d60-bec6-920b690b0f23",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/programs/c3539fca-7ef5-4d60-bec6-920b690b0f23",
+                    "externalId": "ncs.productionId:60441814",
+                    "id": "c3539fca-7ef5-4d60-bec6-920b690b0f23",
+                    "title": "World News Tonight Prime with David Muir",
+                    "firstPresented": "2021-12-07T03:30:00.000+0000"
+                  },
+                  "network": {
+                    "href": "./networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "id": "86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "name": "abc_news_live"
+                  },
+                  "start": "2021-12-07T03:30:00.000+0000",
+                  "end": "2021-12-07T04:00:00.000+0000",
+                  "timeDescription": "Airing LIVE"
+                }, {
+                  "href": "airings/8bb187a9-1c41-4f9b-9ccc-a4eb13b80be6",
+                  "createdOn": "2021-12-01T17:55:55.115+0000",
+                  "lastModifiedOn": "2021-12-01T17:56:02.033+0000",
+                  "artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/8bb187a9-1c41-4f9b-9ccc-a4eb13b80be6",
+                  "externalId": "ncs.airingId:a113858730",
+                  "id": "8bb187a9-1c41-4f9b-9ccc-a4eb13b80be6",
+                  "program": {
+                    "href": "./programs/4b780f45-2d64-4f8e-aac1-f78dc6232405",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/programs/4b780f45-2d64-4f8e-aac1-f78dc6232405",
+                    "externalId": "ncs.productionId:60236441",
+                    "id": "4b780f45-2d64-4f8e-aac1-f78dc6232405",
+                    "title": "ABCNL Prime with Linsey Davis",
+                    "firstPresented": "2021-12-07T00:00:00.000+0000"
+                  },
+                  "network": {
+                    "href": "./networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "id": "86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "name": "abc_news_live"
+                  },
+                  "start": "2021-12-07T04:00:00.000+0000",
+                  "end": "2021-12-07T05:30:00.000+0000",
+                  "timeDescription": "Rerun"
+                }],
+                "isInMidleColumn": false,
+                "airing": {},
+                "video": {
+                  "description": "ABC News Live",
+                  "expirationDate": "",
+                  "featuredMedia": true,
+                  "geoTargeting": [],
+                  "id": "41463246",
+                  "images": "https://s.abcnews.com/images/Video/ABCN_StreamingNow_v01_GL_hpMain_16x9_608.jpg",
+                  "link": "https://abcnews.go.com/Live/video/abcnews-live-41463246",
+                  "isMainLiveStream": true,
+                  "name": "ABC News Live",
+                  "playlist": [],
+                  "posterImg": "https://s.abcnews.com/images/Video/ABCN_StreamingNow_v01_GL_hpMain_16x9_608.jpg",
+                  "shortHeadline": "ABC News Live",
+                  "subtitle": "24/7 coverage of breaking news and live events.",
+                  "title": "ABC News Live",
+                  "type": "live",
+                  "uploadDate": "12/2/2021 19:17:57 GMT",
+                  "video": {
+                    "feed": "https://abcnews.go.com/video/itemfeed?id=41463246"
+                  },
+                  "videoType": ""
+                },
+                "firstAiring": {
+                  "href": "airings/213f8342-1884-4b36-aa9b-44a3ab2ae19f",
+                  "createdOn": "2021-11-29T21:52:59.319+0000",
+                  "lastModifiedOn": "2021-12-06T21:00:30.126+0000",
+                  "artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/213f8342-1884-4b36-aa9b-44a3ab2ae19f",
+                  "externalId": "ncs.airingId:a113861621",
+                  "productLinks": {
+                    "web": "http://abcnews.go.com/live",
+                    "mobile": "abcnews://link/video,41463246"
+                  },
+                  "id": "213f8342-1884-4b36-aa9b-44a3ab2ae19f",
+                  "program": {
+                    "href": "./programs/2d00312f-fd42-447a-a759-dd978daa464d",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/programs/2d00312f-fd42-447a-a759-dd978daa464d",
+                    "externalId": "ncs.productionId:60238326",
+                    "id": "2d00312f-fd42-447a-a759-dd978daa464d",
+                    "title": "GMA3: What You Need to Know",
+                    "firstPresented": "2021-12-06T21:00:00.000+0000"
+                  },
+                  "network": {
+                    "href": "./networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "id": "86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "name": "abc_news_live"
+                  },
+                  "playableUrl": "http://watch.auth.api.espn.go.com/video/auth/media/213f8342-1884-4b36-aa9b-44a3ab2ae19f/asset",
+                  "channel": {
+                    "href": "./channels/213f8342-1884-4b36-aa9b-44a3ab2ae19f",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/channels/213f8342-1884-4b36-aa9b-44a3ab2ae19f",
+                    "id": "213f8342-1884-4b36-aa9b-44a3ab2ae19f"
+                  },
+                  "start": "2021-12-06T21:00:00.000+0000",
+                  "end": "2021-12-06T22:00:00.000+0000",
+                  "timeDescription": "Airing LIVE"
+                },
+                "secondAiring": {
+                  "href": "airings/25a5e616-6e16-4851-b1fa-9dbb34098e9a",
+                  "createdOn": "2021-11-29T21:52:59.897+0000",
+                  "lastModifiedOn": "2021-11-29T22:44:56.237+0000",
+                  "artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/25a5e616-6e16-4851-b1fa-9dbb34098e9a",
+                  "externalId": "ncs.airingId:a113861130",
+                  "id": "25a5e616-6e16-4851-b1fa-9dbb34098e9a",
+                  "program": {
+                    "href": "./programs/1453ab40-f526-4ce2-8ba9-729be4451a33",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/programs/1453ab40-f526-4ce2-8ba9-729be4451a33",
+                    "externalId": "ncs.productionId:60238058",
+                    "id": "1453ab40-f526-4ce2-8ba9-729be4451a33",
+                    "title": "The View",
+                    "firstPresented": "2021-12-06T22:00:00.000+0000"
+                  },
+                  "network": {
+                    "href": "./networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "artworkUrl": "https://artwork.api.espn.com/artwork/collections/networks/86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "id": "86459fc7-f7f8-4803-9f03-cf7a05eab9b5",
+                    "name": "abc_news_live"
+                  },
+                  "start": "2021-12-06T22:00:00.000+0000",
+                  "end": "2021-12-06T23:00:00.000+0000",
+                  "timeDescription": "Airing LIVE"
+                },
+                "apiEnv": ""
+              }],
+              "columns": 3,
+              "mobileOnly": false,
+              "viewProps": {
+                "mobileDisplay": true,
+                "tabletDisplay": true,
+                "desktopDisplay": true
+              }
+            }],
+            "mobileOnly": false,
+            "desktopOnly": false,
+            "showHeader": false,
+            "className": "LivePage"
+          }, {
+            "displayName": "Additional Live Streams",
+            "headerLogo": null,
+            "type": "default",
+            "subType": "COMIC_STRIP",
+            "viewProps": {},
+            "blocks": [{
+              "displayName": "Additional Live Streams",
+              "componentKey": "liveVideoCarousel",
+              "type": "liveCarousel",
+              "items": {
+                "latestVideos": [{
+                  "id": "abc_live11",
+                  "date": {
+                    "date": "Invalid date",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "ABC News Live",
+                  "description": "",
+                  "type": "video",
+                  "location": "/live/video/special-live-11",
+                  "section": "live",
+                  "share": "https://abcnews.go.com/live/video/special-live-11",
+                  "image": "https://keyframe-cdn.abcnews.com/streamprovider11.jpg",
+                  "imageAlt": "",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": "abc_live11",
+                    "duration": "0:00",
+                    "thumbnail": "https://keyframe-cdn.abcnews.com/streamprovider11.jpg",
+                    "date": 1638824985000,
+                    "publishedDate": {
+                      "date": "2021-12-06T21:26:14Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "id": "abc_live08",
+                  "date": {
+                    "date": "Invalid date",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Senate meets for legislative business",
+                  "description": "",
+                  "type": "video",
+                  "location": "/live/video/special-live-08",
+                  "section": "live",
+                  "share": "https://abcnews.go.com/live/video/special-live-08",
+                  "image": "https://keyframe-cdn.abcnews.com/streamprovider8.jpg",
+                  "imageAlt": "",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": "abc_live08",
+                    "duration": "0:00",
+                    "thumbnail": "https://keyframe-cdn.abcnews.com/streamprovider8.jpg",
+                    "date": 1638824985000,
+                    "publishedDate": {
+                      "date": "2021-12-06T21:26:14Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "id": "abc_live10",
+                  "date": {
+                    "date": "Invalid date",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Arctic blast moving East, flash flooding and mudslides in Hawaii: Radar",
+                  "description": "",
+                  "type": "video",
+                  "location": "/live/video/special-live-10",
+                  "section": "live",
+                  "share": "https://abcnews.go.com/live/video/special-live-10",
+                  "image": "https://keyframe-cdn.abcnews.com/streamprovider10.jpg",
+                  "imageAlt": "",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": "abc_live10",
+                    "duration": "0:00",
+                    "thumbnail": "https://keyframe-cdn.abcnews.com/streamprovider10.jpg",
+                    "date": 1638824985000,
+                    "publishedDate": {
+                      "date": "2021-12-06T21:26:14Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }],
+                "playlist": [{
+                  "title": "ABC News Live",
+                  "description": "",
+                  "share": "https://abcnews.go.com/live/video/special-live-11",
+                  "videos": {
+                    "id": "abc_live11",
+                    "duration": "0:00",
+                    "thumbnail": "https://keyframe-cdn.abcnews.com/streamprovider11.jpg",
+                    "date": 1638824985000,
+                    "publishedDate": {
+                      "date": "2021-12-06T21:26:14Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Senate meets for legislative business",
+                  "description": "",
+                  "share": "https://abcnews.go.com/live/video/special-live-08",
+                  "videos": {
+                    "id": "abc_live08",
+                    "duration": "0:00",
+                    "thumbnail": "https://keyframe-cdn.abcnews.com/streamprovider8.jpg",
+                    "date": 1638824985000,
+                    "publishedDate": {
+                      "date": "2021-12-06T21:26:14Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Arctic blast moving East, flash flooding and mudslides in Hawaii: Radar",
+                  "description": "",
+                  "share": "https://abcnews.go.com/live/video/special-live-10",
+                  "videos": {
+                    "id": "abc_live10",
+                    "duration": "0:00",
+                    "thumbnail": "https://keyframe-cdn.abcnews.com/streamprovider10.jpg",
+                    "date": 1638824985000,
+                    "publishedDate": {
+                      "date": "2021-12-06T21:26:14Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }],
+                "videoPlaylist": ["abc_live11", "abc_live08", "abc_live10"]
+              },
+              "columns": 3,
+              "mobileOnly": false,
+              "viewProps": {
+                "title": "Additional Live Streams",
+                "titleLink": "/live",
+                "mobileDisplay": true,
+                "tabletDisplay": true,
+                "desktopDisplay": true
+              }
+            }],
+            "mobileOnly": false,
+            "desktopOnly": false,
+            "showHeader": true,
+            "className": "LivePage"
+          }, {
+            "displayName": "Top Stories",
+            "headerLogo": null,
+            "type": "default",
+            "subType": "RSIdxFeed",
+            "viewProps": {},
+            "blocks": [{
+              "displayName": "Top Stories",
+              "componentKey": "videoCarousel",
+              "type": "carousel",
+              "items": {
+                "latestVideos": [{
+                  "id": 81584641,
+                  "date": {
+                    "date": "2021-12-06T21:02:02Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 21:02:02 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "COVID-19 omicron outbreak reported in Oslo ",
+                  "description": "Following a company Christmas party in Oslo, Norway, on Nov. 26, at least 60 people have tested positive for COVID-19, with at least 15-20 cases likely to be the omicron variant.",
+                  "type": "video",
+                  "location": "/GMA/GMA3/video/covid-19-omicron-outbreak-reported-oslo-81584641?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/3lHKjyi",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma3_ashton_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: COVID-19 omicron outbreak reported in Oslo ",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81584641,
+                    "duration": "2:04",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma3_ashton_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 21:02:02 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T21:02:02Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 21:02:02 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81584753,
+                  "date": {
+                    "date": "2021-12-06T21:02:46Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 21:02:46 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Parents of alleged Michigan school shooting suspect jailed after manhunt ",
+                  "description": "James and Jennifer Crumbley are facing four counts of involuntary manslaughter in the deaths of four high school students after their 15-year-old son was charged following the school shooting.  ",
+                  "type": "video",
+                  "location": "/GMA/GMA3/video/parents-alleged-michigan-school-shooting-suspect-jailed-manhunt-81584753?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/3DowgUc",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma3_longman_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Parents of alleged Michigan school shooting suspect jailed after manhunt ",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81584753,
+                    "duration": "2:20",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma3_longman_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 21:02:46 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T21:02:46Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 21:02:46 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81585050,
+                  "date": {
+                    "date": "2021-12-06T21:03:43Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 21:03:43 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Omicron variant confirmed in 17 states across the US ",
+                  "description": "Dr. Natasha Bagdasarian, the Michigan chief medical executive from the state of Michigan talks about the surge of COVID-19 and omicron variant.   ",
+                  "type": "video",
+                  "location": "/GMA/GMA3/video/omicron-variant-confirmed-17-states-us-81585050?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/3pAphT4",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma3_omicron_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Omicron variant confirmed in 17 states across US ",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81585050,
+                    "duration": "5:35",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma3_omicron_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 21:03:43 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T21:03:43Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 21:03:43 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81585247,
+                  "date": {
+                    "date": "2021-12-06T21:06:28Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 21:06:28 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Will boosters be made available for 12 to 17-year-olds to help combat omicron? ",
+                  "description": "ABC News' Dr. Jen Ashton has answers to viewers' health and COVID-19 questions.  ",
+                  "type": "video",
+                  "location": "/GMA/GMA3/video/boosters-made-12-17-year-olds-combat-omicron-81585247?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/3rHTylW",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma3_questions_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Will boosters be made available for 12 to 17-year-olds to help combat omicron? ",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81585247,
+                    "duration": "1:59",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma3_questions_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 21:06:28 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T21:06:28Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 21:06:28 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81588663,
+                  "date": {
+                    "date": "2021-12-06T19:03:59Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 19:03:59 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Biden administration announces diplomatic boycott of 2022 Beijing Olympics",
+                  "description": "White House Press Secretary Jen Psaki said the administration would not be participating due to China's &quot;egregious human rights abuses and atrocities in Xinjiang.&quot;",
+                  "type": "video",
+                  "location": "/Politics/video/biden-administration-announces-diplomatic-boycott-2022-beijing-olympics-81588663?fromLive=true",
+                  "section": "politics",
+                  "share": "https://abcn.ws/3lF695A",
+                  "image": "https://s.abcnews.com/images/Politics/211206_vod_winter_olympics_diplommats_hpMain_16x9_608.jpg",
+                  "imageAlt": "White House Press Secretary Jen Psaki said the administration would not be participating due to China's \"egregious human rights abuses and atrocities in Xinjiang.\"",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81588663,
+                    "duration": "0:55",
+                    "thumbnail": "https://s.abcnews.com/images/Politics/211206_vod_winter_olympics_diplommats_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 19:03:59 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T19:03:59Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 19:03:59 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81589945,
+                  "date": {
+                    "date": "2021-12-06T20:29:51Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 20:29:51 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Bronx hair salon building floor collapses, injures 3",
+                  "description": "The first floor of the New Klaman Hair Braiding store on 1351 Prospect Ave collapsed into the basement on Sunday evening leaving three people injured.",
+                  "type": "video",
+                  "location": "/US/video/bronx-hair-salon-building-floor-collapses-injures-81589945?fromLive=true",
+                  "section": "us",
+                  "share": "https://abcn.ws/3pvCblA",
+                  "image": "https://s.abcnews.com/images/US/211205_wabc_floor_collapse_hpMain_16x9_608.jpg",
+                  "imageAlt": "The first floor of the New Klaman Hair Braiding store on 1351 Prospect Ave collapsed into the basement on Sunday evening leaving three people injured.",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81589945,
+                    "duration": "0:42",
+                    "thumbnail": "https://s.abcnews.com/images/US/211205_wabc_floor_collapse_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 20:29:51 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T20:29:51Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 20:29:51 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81588552,
+                  "date": {
+                    "date": "2021-12-06T19:01:50Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 19:01:50 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "4 people dead after plane crash in California ",
+                  "description": "Federal agencies are investigating why the single-engine aircraft crashed just 16 seconds after taking off.",
+                  "type": "video",
+                  "location": "/US/video/people-dead-plane-crash-california-81588552?fromLive=true",
+                  "section": "us",
+                  "share": "https://abcnews.go.com/US/video/people-dead-plane-crash-california-81588552",
+                  "image": "https://s.abcnews.com/images/US/211206_KFSN_planecrash_hpMain_16x9_608.jpg",
+                  "imageAlt": "Federal agencies are investigating why the single-engine aircraft crashed just 16 seconds after taking off.",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81588552,
+                    "duration": "0:50",
+                    "thumbnail": "https://s.abcnews.com/images/US/211206_KFSN_planecrash_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 19:01:50 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T19:01:50Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 19:01:50 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81586711,
+                  "date": {
+                    "date": "2021-12-06T17:47:16Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 17:47:16 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Hawaii officials call on Navy to suspend fuel operations after water contamination",
+                  "description": "Hawaii officials are calling on the Navy to stop their fuel operations as they fix the ongoing water contamination issue.",
+                  "type": "video",
+                  "location": "/US/video/hawaii-officials-call-navy-suspend-fuel-operations-water-81586711?fromLive=true",
+                  "section": "us",
+                  "share": "https://abcn.ws/3GiAdeV",
+                  "image": "https://s.abcnews.com/images/US/211206_atm_hawaii_water_hpMain_16x9_608.jpg",
+                  "imageAlt": "Hawaii officials are calling on the Navy to stop their fuel operations as they fix the ongoing water contamination issue.",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81586711,
+                    "duration": "1:04",
+                    "thumbnail": "https://s.abcnews.com/images/US/211206_atm_hawaii_water_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 17:47:16 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T17:47:16Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 17:47:16 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81579750,
+                  "date": {
+                    "date": "2021-12-06T12:28:57Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 12:28:57 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Arctic blast on the move",
+                  "description": "ABC News' Chief Meteorologist Ginger Zee has the latest on a powerful storm system with a cold front moving east across the country.",
+                  "type": "video",
+                  "location": "/GMA/News/video/arctic-blast-move-81579750?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/3rKGfkJ",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma_zee1_0705_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Arctic blast on the move",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81579750,
+                    "duration": "0:46",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_zee1_0705_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 12:28:57 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T12:28:57Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 12:28:57 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81579784,
+                  "date": {
+                    "date": "2021-12-06T15:03:27Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 15:03:27 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Biden to speak to Putin over rising tensions in Ukraine",
+                  "description": "ABC News' Senior Foreign Correspondent Ian Pannell reports from Avdiivka, as fears of a possible Russian invasion against Ukraine continue to mount.",
+                  "type": "video",
+                  "location": "/GMA/News/video/biden-speak-putin-rising-tensions-ukraine-81579784?fromLive=true",
+                  "section": "gma",
+                  "share": "https://www.goodmorningamerica.com/news/video/biden-speak-putin-rising-tensions-ukraine-81579784",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma_pannell_bruce_0706_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Biden to speak to Putin over rising tensions in Ukraine",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81579784,
+                    "duration": "2:46",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_pannell_bruce_0706_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 15:03:27 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T15:03:27Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 15:03:27 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81579944,
+                  "date": {
+                    "date": "2021-12-06T12:30:18Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 12:30:18 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "CNN fires prime-time anchor Chris Cuomo",
+                  "description": "The network fired Cuomo over the weekend for his involvement in his brother&rsquo;s, former New York Gov. Andrew Cuomo, response to sexual harassment allegations.",
+                  "type": "video",
+                  "location": "/GMA/News/video/cnn-fires-prime-time-anchor-chris-cuomo-81579944?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/3pxmKsR",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma_reshef1_0709_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: CNN fires primetime anchor Chris Cuomo",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81579944,
+                    "duration": "2:37",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_reshef1_0709_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 12:30:18 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T12:30:18Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 12:30:18 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81580032,
+                  "date": {
+                    "date": "2021-12-06T12:30:45Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 12:30:45 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Death toll rises in Indonesian volcano eruption",
+                  "description": "At least 14 people died in Indonesia following the eruption of Java's highest volcano over the weekend.",
+                  "type": "video",
+                  "location": "/GMA/News/video/death-toll-rises-indonesian-volcano-eruption-81580032?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/3Gjxe68",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma_longman1_0711_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Death toll rises in Indonesian volcano eruption",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81580032,
+                    "duration": "1:06",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_longman1_0711_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 12:30:45 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T12:30:45Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 12:30:45 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81580087,
+                  "date": {
+                    "date": "2021-12-06T15:36:51Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 15:36:51 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Legendary statesman Bob Dole dead at 98",
+                  "description": "The former U.S. senator, Republican presidential candidate and World War II veteran died in his sleep on Sunday morning.",
+                  "type": "video",
+                  "location": "/GMA/News/video/legendary-statesman-bob-dole-dead-98-81580087?fromLive=true",
+                  "section": "gma",
+                  "share": "https://www.goodmorningamerica.com/news/video/legendary-statesman-bob-dole-dead-98-81580087",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma_george4_0713_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Legendary statesman Bob Dole dead at 98",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81580087,
+                    "duration": "3:39",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_george4_0713_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 15:36:51 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T15:36:51Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 15:36:51 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81580175,
+                  "date": {
+                    "date": "2021-12-06T12:45:58Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 12:45:58 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Michigan prosecutor talks case against alleged school shooter, parents",
+                  "description": "Oakland County Prosecutor Karen McDonald discussed why she chose to charge the parents with involuntary manslaughter in connection with last week's deadly shooting at Oxford High School in Michigan.",
+                  "type": "video",
+                  "location": "/GMA/News/video/michigan-prosecutor-talks-case-alleged-school-shooter-parents-81580175?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/31D11HC",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma_mcdonald_0735_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Michigan prosecutor talks case against alleged school shooter, parents",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81580175,
+                    "duration": "4:43",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_mcdonald_0735_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 12:45:58 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T12:45:58Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 12:45:58 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81580086,
+                  "date": {
+                    "date": "2021-12-06T12:53:14Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 12:53:14 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Michael Strahan begins training ahead of space launch",
+                  "description": "The &quot;GMA&quot; co-host took us behind the scenes of his final preparations in Van Horn, Texas, ahead of his journey into space aboard Blue Origin's New Shepard.",
+                  "type": "video",
+                  "location": "/GMA/Culture/video/michael-strahan-begins-training-ahead-space-launch-81580086?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/3IkSjii",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma_strahan_0743_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Michael Strahan begins training ahead of space launch",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81580086,
+                    "duration": "3:28",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_strahan_0743_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 12:53:14 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T12:53:14Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 12:53:14 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81580909,
+                  "date": {
+                    "date": "2021-12-06T13:14:54Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 13:14:54 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "New study reports spike in blood pressure during pandemic",
+                  "description": "Dr. Jennifer Ashton looked at a new study that found the increase was more prevalent among women and offered screening and treatment tips.",
+                  "type": "video",
+                  "location": "/GMA/Wellness/video/study-reports-spike-blood-pressure-pandemic-81580909?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/31FCS3y",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma_ashton3_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: New study reports spike in blood pressure during pandemic",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81580909,
+                    "duration": "1:57",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_ashton3_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 13:14:54 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T13:14:54Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 13:14:54 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81579419,
+                  "date": {
+                    "date": "2021-12-06T13:29:17Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 13:29:17 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Possible new medical breakthrough gives hope for people with Type 1 diabetes",
+                  "description": "In a story first reported by The New York Times, a revolutionary cell transplant helped restore one man's natural ability to create and regulate insulin, offering him a potential new lease on life.",
+                  "type": "video",
+                  "location": "/GMA/Wellness/video/medical-breakthrough-hope-people-type-diabetes-81579419?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/32RMuIP",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma_reeve8_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Possible new medical breakthrough gives hope for people with Type 1 diabetes",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81579419,
+                    "duration": "3:17",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_reeve8_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 13:29:17 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T13:29:17Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 13:29:17 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81579512,
+                  "date": {
+                    "date": "2021-12-06T13:31:41Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 13:31:41 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "How to beat inflation as you shop for the holidays",
+                  "description": "With sky-high price tags on so many popular items, ABC News' business correspondent Rebecca Jarvis shares tips on how to stretch your money and save while shopping.",
+                  "type": "video",
+                  "location": "/GMA/Shop/video/beat-inflation-shop-holidays-81579512?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/3InRRQe",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma_jarvis_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: How to beat inflation as you shop for the holidays",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81579512,
+                    "duration": "2:07",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_jarvis_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 13:31:41 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T13:31:41Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 13:31:41 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81579218,
+                  "date": {
+                    "date": "2021-12-06T13:32:45Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 13:32:45 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "These are TikTok’s most popular videos of 2021",
+                  "description": "From animals that made us laugh to the top dance moves to voices of change that inspired millions around the globe, these were the best and buzziest trends on the app this year. ",
+                  "type": "video",
+                  "location": "/GMA/Culture/video/tiktoks-popular-videos-2021-81579218?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/3GgfQ22",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma_holme4_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: These are TikTok’s most popular videos of 2021",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81579218,
+                    "duration": "2:30",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_holme4_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 13:32:45 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T13:32:45Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 13:32:45 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81581726,
+                  "date": {
+                    "date": "2021-12-06T13:48:51Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 13:48:51 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Reinventing your work-from-home life",
+                  "description": "Charlie Warzel and Anne Helen Petersen are out with a new book, &quot;Out of Office,&quot; which offers concrete steps to rethink the remote workplace to make working from home work for you.",
+                  "type": "video",
+                  "location": "/GMA/Living/video/reinventing-work-home-life-81581726?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/3lGVLKn",
+                  "image": "https://s.abcnews.com/images/GMA/211206_gma_worley2_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Reinventing your work-from-home life",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81581726,
+                    "duration": "2:52",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_worley2_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 13:48:51 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T13:48:51Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 13:48:51 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81579658,
+                  "date": {
+                    "date": "2021-12-06T11:43:19Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 11:43:19 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Facebook Messenger has new bill-splitting feature",
+                  "description": "&quot;Split Payments&quot; allows users to pay expenses they share with others.",
+                  "type": "video",
+                  "location": "/Technology/video/facebook-messenger-bill-splitting-feature-81579658?fromLive=true",
+                  "section": "technology",
+                  "share": "https://abcn.ws/3dnm9nU",
+                  "image": "https://s.abcnews.com/images/Technology/211206_atm_techbytes_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Facebook Messenger has new bill-splitting feature",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81579658,
+                    "duration": "0:52",
+                    "thumbnail": "https://s.abcnews.com/images/Technology/211206_atm_techbytes_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 11:43:19 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T11:43:19Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 11:43:19 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81580854,
+                  "date": {
+                    "date": "2021-12-06T13:10:41Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 13:10:41 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Holiday gift ideas",
+                  "description": "The Giz Wiz's Dick Debartolo shows ABC News&rsquo; Will Ganss some of this year&rsquo;s unique holiday gift ideas for everyone on your gift list.",
+                  "type": "video",
+                  "location": "/WNN/video/holiday-gift-ideas-81580854?fromLive=true",
+                  "section": "wnn",
+                  "share": "https://abcn.ws/31zfPY7",
+                  "image": "https://s.abcnews.com/images/WNN/211206_wnn_ganss_pic_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Holiday gift ideas",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81580854,
+                    "duration": "3:23",
+                    "thumbnail": "https://s.abcnews.com/images/WNN/211206_wnn_ganss_pic_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 13:10:41 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T13:10:41Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 13:10:41 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81572817,
+                  "date": {
+                    "date": "2021-12-05T23:59:13Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/5/2021 23:59:13 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Tributes pour in for former Senator and presidential candidate Bob Dole",
+                  "description": "Flags at the White House were lowered to half-staff in the former Senator's honor. ",
+                  "type": "video",
+                  "location": "/WNT/video/tributes-pour-senator-presidential-candidate-bob-dole-81572817?fromLive=true",
+                  "section": "wnt",
+                  "share": "https://abcn.ws/3xVflr8",
+                  "image": "https://s.abcnews.com/images/WNT/211205_wn_karl_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Tributes pour in for former Senator and presidential candidate Bob Dole",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81572817,
+                    "duration": "3:07",
+                    "thumbnail": "https://s.abcnews.com/images/WNT/211205_wn_karl_hpMain_16x9_384.jpg",
+                    "date": "12/5/2021 23:59:13 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-05T23:59:13Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/5/2021 23:59:13 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81572821,
+                  "date": {
+                    "date": "2021-12-05T23:52:20Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/5/2021 23:52:20 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Concerns grow over omicron variant",
+                  "description": "Seventeen states are now reporting cases of the new COVID-19 variant. ",
+                  "type": "video",
+                  "location": "/WNT/video/concerns-grow-omicron-variant-81572821?fromLive=true",
+                  "section": "wnt",
+                  "share": "https://abcn.ws/3rBnXlN",
+                  "image": "https://s.abcnews.com/images/WNT/211205_wn_lopez_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Concerns grow over omicron variant",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81572821,
+                    "duration": "2:29",
+                    "thumbnail": "https://s.abcnews.com/images/WNT/211205_wn_lopez_hpMain_16x9_384.jpg",
+                    "date": "12/5/2021 23:52:20 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-05T23:52:20Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/5/2021 23:52:20 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81572818,
+                  "date": {
+                    "date": "2021-12-05T23:56:20Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/5/2021 23:56:20 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Russian troops build up on Ukraine border",
+                  "description": "Ukraine forces are closely monitoring up to 100,000 Russian troops believed to be on the border. ",
+                  "type": "video",
+                  "location": "/WNT/video/russian-troops-build-ukraine-border-81572818?fromLive=true",
+                  "section": "wnt",
+                  "share": "https://abcn.ws/333CjBd",
+                  "image": "https://s.abcnews.com/images/WNT/211205_wn_parks_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Russian troops build up on Ukraine border",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81572818,
+                    "duration": "2:09",
+                    "thumbnail": "https://s.abcnews.com/images/WNT/211205_wn_parks_hpMain_16x9_384.jpg",
+                    "date": "12/5/2021 23:56:20 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-05T23:56:20Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/5/2021 23:56:20 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81572715,
+                  "date": {
+                    "date": "2021-12-06T00:16:56Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/6/2021 00:16:56 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "‘West Side Story’ celebrates 60th anniversary",
+                  "description": "The iconic musical won 10 Oscars after making its debut in 1961. ",
+                  "type": "video",
+                  "location": "/WNT/video/west-side-story-celebrates-60th-anniversary-81572715?fromLive=true",
+                  "section": "wnt",
+                  "share": "https://abcn.ws/3ososwC",
+                  "image": "https://s.abcnews.com/images/WNT/211205_wn_ender_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: ‘West Side Story’ celebrates 60th anniversary",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81572715,
+                    "duration": "2:14",
+                    "thumbnail": "https://s.abcnews.com/images/WNT/211205_wn_ender_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 00:16:56 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T00:16:56Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 00:16:56 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81569286,
+                  "date": {
+                    "date": "2021-12-05T18:36:03Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/5/2021 18:36:03 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "An exclusive look inside Moderna headquarters",
+                  "description": "Martha Raddatz goes inside Moderna as the company races to update its vaccines.",
+                  "type": "video",
+                  "location": "/ThisWeek/video/exclusive-inside-moderna-headquarters-81569286?fromLive=true",
+                  "section": "thisweek",
+                  "share": "https://abcn.ws/3xYFHIJ",
+                  "image": "https://s.abcnews.com/images/ThisWeek/211205_tw_omicron3_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: An exclusive look inside Moderna Headquarters",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81569286,
+                    "duration": "5:04",
+                    "thumbnail": "https://s.abcnews.com/images/ThisWeek/211205_tw_omicron3_hpMain_16x9_384.jpg",
+                    "date": "12/5/2021 18:36:03 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-05T18:36:03Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/5/2021 18:36:03 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81572448,
+                  "date": {
+                    "date": "2021-12-05T22:09:28Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/5/2021 22:09:28 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Bob Dole, longtime public servant, dies",
+                  "description": "Former U.S. Sen. Bob Dole will be remembered for the tenacity that defined his career and his work on behalf of his fellow military veterans.",
+                  "type": "video",
+                  "location": "/Politics/video/bob-dole-longtime-public-servant-dies-81572448?fromLive=true",
+                  "section": "politics",
+                  "share": "https://abcn.ws/3Er9Oeo",
+                  "image": "https://s.abcnews.com/images/Politics/211205_nwo_dole_obit_hpMain_16x9_608.jpg",
+                  "imageAlt": "Former U.S. Sen. Bob Dole will be remembered for the tenacity that defined his career and his work on behalf of his fellow military veterans.",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81572448,
+                    "duration": "1:55",
+                    "thumbnail": "https://s.abcnews.com/images/Politics/211205_nwo_dole_obit_hpMain_16x9_384.jpg",
+                    "date": "12/5/2021 22:09:28 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-05T22:09:28Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/5/2021 22:09:28 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81567290,
+                  "date": {
+                    "date": "2021-12-05T14:38:28Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/5/2021 14:38:28 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Omicron variant spreading twice as fast as delta variant in South Africa",
+                  "description": "Hospital admissions in U.S. are up by 26% since the beginning of November.",
+                  "type": "video",
+                  "location": "/GMA/Wellness/video/omicron-variant-spreading-fast-delta-variant-south-africa-81567290?fromLive=true",
+                  "section": "gma",
+                  "share": "https://abcn.ws/3orEtm8",
+                  "image": "https://s.abcnews.com/images/GMA/211205_gma_lopez2_812_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Omicron variant spreading twice as fast as delta variant in South Africa",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81567290,
+                    "duration": "2:21",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211205_gma_lopez2_812_hpMain_16x9_384.jpg",
+                    "date": "12/5/2021 14:38:28 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-05T14:38:28Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/5/2021 14:38:28 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": 81569388,
+                  "date": {
+                    "date": "2021-12-05T18:27:07Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/5/2021 18:27:07 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Supreme Court hears pivotal abortion case",
+                  "description": "Our legal panel gives an inside analysis of where Roe v. Wade currently stands.",
+                  "type": "video",
+                  "location": "/ThisWeek/video/supreme-court-hears-pivotal-abortion-case-81569388?fromLive=true",
+                  "section": "thisweek",
+                  "share": "https://abcn.ws/3rH2Le2",
+                  "image": "https://s.abcnews.com/images/ThisWeek/211205_tw_abortion_shooting_hpMain_16x9_608.jpg",
+                  "imageAlt": "VIDEO: Supreme Court hears pivotal abortion case",
+                  "isLightboxVideo": false,
+                  "isVerticalOriginal": false,
+                  "videos": {
+                    "id": 81569388,
+                    "duration": "7:20",
+                    "thumbnail": "https://s.abcnews.com/images/ThisWeek/211205_tw_abortion_shooting_hpMain_16x9_384.jpg",
+                    "date": "12/5/2021 18:27:07 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-05T18:27:07Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/5/2021 18:27:07 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  },
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }],
+                "playlist": [{
+                  "title": "COVID-19 omicron outbreak reported in Oslo ",
+                  "description": "Following a company Christmas party in Oslo, Norway, on Nov. 26, at least 60 people have tested positive for COVID-19, with at least 15-20 cases likely to be the omicron variant.",
+                  "share": "https://abcn.ws/3lHKjyi",
+                  "videos": {
+                    "id": 81584641,
+                    "duration": "2:04",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma3_ashton_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 21:02:02 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T21:02:02Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 21:02:02 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Parents of alleged Michigan school shooting suspect jailed after manhunt ",
+                  "description": "James and Jennifer Crumbley are facing four counts of involuntary manslaughter in the deaths of four high school students after their 15-year-old son was charged following the school shooting.  ",
+                  "share": "https://abcn.ws/3DowgUc",
+                  "videos": {
+                    "id": 81584753,
+                    "duration": "2:20",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma3_longman_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 21:02:46 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T21:02:46Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 21:02:46 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Omicron variant confirmed in 17 states across the US ",
+                  "description": "Dr. Natasha Bagdasarian, the Michigan chief medical executive from the state of Michigan talks about the surge of COVID-19 and omicron variant.   ",
+                  "share": "https://abcn.ws/3pAphT4",
+                  "videos": {
+                    "id": 81585050,
+                    "duration": "5:35",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma3_omicron_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 21:03:43 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T21:03:43Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 21:03:43 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Will boosters be made available for 12 to 17-year-olds to help combat omicron? ",
+                  "description": "ABC News' Dr. Jen Ashton has answers to viewers' health and COVID-19 questions.  ",
+                  "share": "https://abcn.ws/3rHTylW",
+                  "videos": {
+                    "id": 81585247,
+                    "duration": "1:59",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma3_questions_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 21:06:28 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T21:06:28Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 21:06:28 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Biden administration announces diplomatic boycott of 2022 Beijing Olympics",
+                  "description": "White House Press Secretary Jen Psaki said the administration would not be participating due to China's &quot;egregious human rights abuses and atrocities in Xinjiang.&quot;",
+                  "share": "https://abcn.ws/3lF695A",
+                  "videos": {
+                    "id": 81588663,
+                    "duration": "0:55",
+                    "thumbnail": "https://s.abcnews.com/images/Politics/211206_vod_winter_olympics_diplommats_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 19:03:59 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T19:03:59Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 19:03:59 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Bronx hair salon building floor collapses, injures 3",
+                  "description": "The first floor of the New Klaman Hair Braiding store on 1351 Prospect Ave collapsed into the basement on Sunday evening leaving three people injured.",
+                  "share": "https://abcn.ws/3pvCblA",
+                  "videos": {
+                    "id": 81589945,
+                    "duration": "0:42",
+                    "thumbnail": "https://s.abcnews.com/images/US/211205_wabc_floor_collapse_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 20:29:51 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T20:29:51Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 20:29:51 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "4 people dead after plane crash in California ",
+                  "description": "Federal agencies are investigating why the single-engine aircraft crashed just 16 seconds after taking off.",
+                  "share": "https://abcnews.go.com/US/video/people-dead-plane-crash-california-81588552",
+                  "videos": {
+                    "id": 81588552,
+                    "duration": "0:50",
+                    "thumbnail": "https://s.abcnews.com/images/US/211206_KFSN_planecrash_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 19:01:50 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T19:01:50Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 19:01:50 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Hawaii officials call on Navy to suspend fuel operations after water contamination",
+                  "description": "Hawaii officials are calling on the Navy to stop their fuel operations as they fix the ongoing water contamination issue.",
+                  "share": "https://abcn.ws/3GiAdeV",
+                  "videos": {
+                    "id": 81586711,
+                    "duration": "1:04",
+                    "thumbnail": "https://s.abcnews.com/images/US/211206_atm_hawaii_water_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 17:47:16 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T17:47:16Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 17:47:16 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Arctic blast on the move",
+                  "description": "ABC News' Chief Meteorologist Ginger Zee has the latest on a powerful storm system with a cold front moving east across the country.",
+                  "share": "https://abcn.ws/3rKGfkJ",
+                  "videos": {
+                    "id": 81579750,
+                    "duration": "0:46",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_zee1_0705_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 12:28:57 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T12:28:57Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 12:28:57 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Biden to speak to Putin over rising tensions in Ukraine",
+                  "description": "ABC News' Senior Foreign Correspondent Ian Pannell reports from Avdiivka, as fears of a possible Russian invasion against Ukraine continue to mount.",
+                  "share": "https://www.goodmorningamerica.com/news/video/biden-speak-putin-rising-tensions-ukraine-81579784",
+                  "videos": {
+                    "id": 81579784,
+                    "duration": "2:46",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_pannell_bruce_0706_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 15:03:27 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T15:03:27Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 15:03:27 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "CNN fires prime-time anchor Chris Cuomo",
+                  "description": "The network fired Cuomo over the weekend for his involvement in his brother&rsquo;s, former New York Gov. Andrew Cuomo, response to sexual harassment allegations.",
+                  "share": "https://abcn.ws/3pxmKsR",
+                  "videos": {
+                    "id": 81579944,
+                    "duration": "2:37",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_reshef1_0709_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 12:30:18 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T12:30:18Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 12:30:18 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Death toll rises in Indonesian volcano eruption",
+                  "description": "At least 14 people died in Indonesia following the eruption of Java's highest volcano over the weekend.",
+                  "share": "https://abcn.ws/3Gjxe68",
+                  "videos": {
+                    "id": 81580032,
+                    "duration": "1:06",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_longman1_0711_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 12:30:45 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T12:30:45Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 12:30:45 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Legendary statesman Bob Dole dead at 98",
+                  "description": "The former U.S. senator, Republican presidential candidate and World War II veteran died in his sleep on Sunday morning.",
+                  "share": "https://www.goodmorningamerica.com/news/video/legendary-statesman-bob-dole-dead-98-81580087",
+                  "videos": {
+                    "id": 81580087,
+                    "duration": "3:39",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_george4_0713_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 15:36:51 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T15:36:51Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 15:36:51 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Michigan prosecutor talks case against alleged school shooter, parents",
+                  "description": "Oakland County Prosecutor Karen McDonald discussed why she chose to charge the parents with involuntary manslaughter in connection with last week's deadly shooting at Oxford High School in Michigan.",
+                  "share": "https://abcn.ws/31D11HC",
+                  "videos": {
+                    "id": 81580175,
+                    "duration": "4:43",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_mcdonald_0735_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 12:45:58 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T12:45:58Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 12:45:58 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Michael Strahan begins training ahead of space launch",
+                  "description": "The &quot;GMA&quot; co-host took us behind the scenes of his final preparations in Van Horn, Texas, ahead of his journey into space aboard Blue Origin's New Shepard.",
+                  "share": "https://abcn.ws/3IkSjii",
+                  "videos": {
+                    "id": 81580086,
+                    "duration": "3:28",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_strahan_0743_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 12:53:14 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T12:53:14Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 12:53:14 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "New study reports spike in blood pressure during pandemic",
+                  "description": "Dr. Jennifer Ashton looked at a new study that found the increase was more prevalent among women and offered screening and treatment tips.",
+                  "share": "https://abcn.ws/31FCS3y",
+                  "videos": {
+                    "id": 81580909,
+                    "duration": "1:57",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_ashton3_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 13:14:54 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T13:14:54Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 13:14:54 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Possible new medical breakthrough gives hope for people with Type 1 diabetes",
+                  "description": "In a story first reported by The New York Times, a revolutionary cell transplant helped restore one man's natural ability to create and regulate insulin, offering him a potential new lease on life.",
+                  "share": "https://abcn.ws/32RMuIP",
+                  "videos": {
+                    "id": 81579419,
+                    "duration": "3:17",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_reeve8_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 13:29:17 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T13:29:17Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 13:29:17 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "How to beat inflation as you shop for the holidays",
+                  "description": "With sky-high price tags on so many popular items, ABC News' business correspondent Rebecca Jarvis shares tips on how to stretch your money and save while shopping.",
+                  "share": "https://abcn.ws/3InRRQe",
+                  "videos": {
+                    "id": 81579512,
+                    "duration": "2:07",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_jarvis_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 13:31:41 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T13:31:41Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 13:31:41 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "These are TikTok’s most popular videos of 2021",
+                  "description": "From animals that made us laugh to the top dance moves to voices of change that inspired millions around the globe, these were the best and buzziest trends on the app this year. ",
+                  "share": "https://abcn.ws/3GgfQ22",
+                  "videos": {
+                    "id": 81579218,
+                    "duration": "2:30",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_holme4_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 13:32:45 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T13:32:45Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 13:32:45 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Reinventing your work-from-home life",
+                  "description": "Charlie Warzel and Anne Helen Petersen are out with a new book, &quot;Out of Office,&quot; which offers concrete steps to rethink the remote workplace to make working from home work for you.",
+                  "share": "https://abcn.ws/3lGVLKn",
+                  "videos": {
+                    "id": 81581726,
+                    "duration": "2:52",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211206_gma_worley2_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 13:48:51 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T13:48:51Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 13:48:51 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Facebook Messenger has new bill-splitting feature",
+                  "description": "&quot;Split Payments&quot; allows users to pay expenses they share with others.",
+                  "share": "https://abcn.ws/3dnm9nU",
+                  "videos": {
+                    "id": 81579658,
+                    "duration": "0:52",
+                    "thumbnail": "https://s.abcnews.com/images/Technology/211206_atm_techbytes_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 11:43:19 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T11:43:19Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 11:43:19 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Holiday gift ideas",
+                  "description": "The Giz Wiz's Dick Debartolo shows ABC News&rsquo; Will Ganss some of this year&rsquo;s unique holiday gift ideas for everyone on your gift list.",
+                  "share": "https://abcn.ws/31zfPY7",
+                  "videos": {
+                    "id": 81580854,
+                    "duration": "3:23",
+                    "thumbnail": "https://s.abcnews.com/images/WNN/211206_wnn_ganss_pic_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 13:10:41 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T13:10:41Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 13:10:41 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Tributes pour in for former Senator and presidential candidate Bob Dole",
+                  "description": "Flags at the White House were lowered to half-staff in the former Senator's honor. ",
+                  "share": "https://abcn.ws/3xVflr8",
+                  "videos": {
+                    "id": 81572817,
+                    "duration": "3:07",
+                    "thumbnail": "https://s.abcnews.com/images/WNT/211205_wn_karl_hpMain_16x9_384.jpg",
+                    "date": "12/5/2021 23:59:13 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-05T23:59:13Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/5/2021 23:59:13 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Concerns grow over omicron variant",
+                  "description": "Seventeen states are now reporting cases of the new COVID-19 variant. ",
+                  "share": "https://abcn.ws/3rBnXlN",
+                  "videos": {
+                    "id": 81572821,
+                    "duration": "2:29",
+                    "thumbnail": "https://s.abcnews.com/images/WNT/211205_wn_lopez_hpMain_16x9_384.jpg",
+                    "date": "12/5/2021 23:52:20 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-05T23:52:20Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/5/2021 23:52:20 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Russian troops build up on Ukraine border",
+                  "description": "Ukraine forces are closely monitoring up to 100,000 Russian troops believed to be on the border. ",
+                  "share": "https://abcn.ws/333CjBd",
+                  "videos": {
+                    "id": 81572818,
+                    "duration": "2:09",
+                    "thumbnail": "https://s.abcnews.com/images/WNT/211205_wn_parks_hpMain_16x9_384.jpg",
+                    "date": "12/5/2021 23:56:20 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-05T23:56:20Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/5/2021 23:56:20 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "‘West Side Story’ celebrates 60th anniversary",
+                  "description": "The iconic musical won 10 Oscars after making its debut in 1961. ",
+                  "share": "https://abcn.ws/3ososwC",
+                  "videos": {
+                    "id": 81572715,
+                    "duration": "2:14",
+                    "thumbnail": "https://s.abcnews.com/images/WNT/211205_wn_ender_hpMain_16x9_384.jpg",
+                    "date": "12/6/2021 00:16:56 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-06T00:16:56Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/6/2021 00:16:56 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "An exclusive look inside Moderna headquarters",
+                  "description": "Martha Raddatz goes inside Moderna as the company races to update its vaccines.",
+                  "share": "https://abcn.ws/3xYFHIJ",
+                  "videos": {
+                    "id": 81569286,
+                    "duration": "5:04",
+                    "thumbnail": "https://s.abcnews.com/images/ThisWeek/211205_tw_omicron3_hpMain_16x9_384.jpg",
+                    "date": "12/5/2021 18:36:03 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-05T18:36:03Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/5/2021 18:36:03 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Bob Dole, longtime public servant, dies",
+                  "description": "Former U.S. Sen. Bob Dole will be remembered for the tenacity that defined his career and his work on behalf of his fellow military veterans.",
+                  "share": "https://abcn.ws/3Er9Oeo",
+                  "videos": {
+                    "id": 81572448,
+                    "duration": "1:55",
+                    "thumbnail": "https://s.abcnews.com/images/Politics/211205_nwo_dole_obit_hpMain_16x9_384.jpg",
+                    "date": "12/5/2021 22:09:28 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-05T22:09:28Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/5/2021 22:09:28 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Omicron variant spreading twice as fast as delta variant in South Africa",
+                  "description": "Hospital admissions in U.S. are up by 26% since the beginning of November.",
+                  "share": "https://abcn.ws/3orEtm8",
+                  "videos": {
+                    "id": 81567290,
+                    "duration": "2:21",
+                    "thumbnail": "https://s.abcnews.com/images/GMA/211205_gma_lopez2_812_hpMain_16x9_384.jpg",
+                    "date": "12/5/2021 14:38:28 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-05T14:38:28Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/5/2021 14:38:28 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }, {
+                  "title": "Supreme Court hears pivotal abortion case",
+                  "description": "Our legal panel gives an inside analysis of where Roe v. Wade currently stands.",
+                  "share": "https://abcn.ws/3rH2Le2",
+                  "videos": {
+                    "id": 81569388,
+                    "duration": "7:20",
+                    "thumbnail": "https://s.abcnews.com/images/ThisWeek/211205_tw_abortion_shooting_hpMain_16x9_384.jpg",
+                    "date": "12/5/2021 18:27:07 GMT",
+                    "publishedDate": {
+                      "date": "2021-12-05T18:27:07Z",
+                      "preFormat": "relative",
+                      "postFormat": "MMM DD",
+                      "useShort": false,
+                      "text": "12/5/2021 18:27:07 GMT",
+                      "threshold": 4,
+                      "thresholdType": "hours"
+                    }
+                  }
+                }],
+                "videoPlaylist": [81584641, 81584753, 81585050, 81585247, 81588663, 81589945, 81588552, 81586711, 81579750, 81579784, 81579944, 81580032, 81580087, 81580175, 81580086, 81580909, 81579419, 81579512, 81579218, 81581726, 81579658, 81580854, 81572817, 81572821, 81572818, 81572715, 81569286, 81572448, 81567290, 81569388]
+              },
+              "columns": 3,
+              "mobileOnly": false,
+              "viewProps": {
+                "title": "Top Stories",
+                "mobileDisplay": true,
+                "tabletDisplay": true,
+                "desktopDisplay": true
+              }
+            }],
+            "mobileOnly": false,
+            "desktopOnly": false,
+            "showHeader": true,
+            "className": "LivePage"
+          }, {
+            "displayName": "ABC News Specials on",
+            "headerLogo": {
+              "icon": "https://s.abcnews.com/assets/dtci/images/hulu.svg",
+              "url": "https://www.hulu.com/network/abc-news-2662d112-7114-4c6b-96fd-cb9e68a27eee?cmp=14855&utm_campaign=OO_ABCNews_Website_OffChannel_NetworkPage&utm_medium=Display&utm_source=OO_ABCNews"
+            },
+            "type": "default",
+            "subType": "RSIdxFeed",
+            "viewProps": {},
+            "blocks": [{
+              "displayName": "ABC News Specials on",
+              "componentKey": "videoCarousel",
+              "type": "carousel",
+              "items": {
+                "latestVideos": [{
+                  "id": "",
+                  "date": {
+                    "date": "2021-12-03T12:13:21Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "12/3/2021 12:13:21 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Alec Baldwin: Unscripted ",
+                  "description": "Baldwin's first interview since the fatal accident on the set of &quot;Rust&quot;.",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/alec-baldwin-unscripted-22edd129-fede-4419-b74a-102428475d1a?cmp=16241&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_Baldwin&utm_medium=Display&utm_source=OO_ABCNews&fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/alec-baldwin-unscripted-22edd129-fede-4419-b74a-102428475d1a?cmp=16241&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_Baldwin&utm_medium=Display&utm_source=OO_ABCNews",
+                  "image": "https://s.abcnews.com/images/US/alec_baldwin_1638387296144_hpMain_16x9_608.jpg",
+                  "imageAlt": "Alec Baldwin: Unscripted",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": "",
+                  "date": {
+                    "date": "2021-11-29T13:28:56Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "11/29/2021 13:28:56 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "The Housewife and the Shah Shocker",
+                  "description": "Dive into the bombshell accusations against Jen Shah.",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/the-housewife-the-shah-shocker-a64df37c-8417-435e-a6c9-57a33b657e2a?cmp=16177&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_Shah&utm_medium=Display&utm_source=OO_ABCNews&fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/the-housewife-the-shah-shocker-a64df37c-8417-435e-a6c9-57a33b657e2a?cmp=16177&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_Shah&utm_medium=Display&utm_source=OO_ABCNews",
+                  "image": "https://s.abcnews.com/images/GMA/housewifeshah_1638191932817_hpMain_16x9_608.jpg",
+                  "imageAlt": "Housewife and the Shah Shocker",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": "",
+                  "date": {
+                    "date": "2021-11-24T12:27:45Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "11/24/2021 12:27:45 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "City of Angels | City of Death",
+                  "description": "A documentary series tells the incredible true-crime story of a fascinating era.",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/city-of-angels-city-of-death-a92612fa-a6dc-4564-b611-43d56f02e7a2?cmp=16049&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_COACOD&utm_medium=Display&utm_source=OO_ABCNews&fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/city-of-angels-city-of-death-a92612fa-a6dc-4564-b611-43d56f02e7a2?cmp=16049&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_COACOD&utm_medium=Display&utm_source=OO_ABCNews",
+                  "image": "https://s.abcnews.com/images/US/cityofangles_1637698461777_hpMain_16x9_608.jpg",
+                  "imageAlt": "City of Angels: City of Death",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": "",
+                  "date": {
+                    "date": "2021-11-11T13:00:32Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "11/11/2021 13:00:32 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "3212 UN-REDACTED",
+                  "description": "Unraveling the truth behind the deaths of 4 U.S. Special Forces soldiers.",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/3212-un-redacted-7ecb7a58-6d39-447b-a4ec-7c511ab894b0?cmp=16032&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_3212&utm_medium=Display&utm_source=OO_ABCNews&fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/3212-un-redacted-7ecb7a58-6d39-447b-a4ec-7c511ab894b0?cmp=16032&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_3212&utm_medium=Display&utm_source=OO_ABCNews",
+                  "image": "https://s.abcnews.com/images/US/unredacted_1636479129204_hpMain_16x9_608.jpg",
+                  "imageAlt": "3212 Unredacted",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": "",
+                  "date": {
+                    "date": "2021-11-01T10:40:24Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "11/1/2021 10:40:24 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "The Informant: Fear and Faith in the Heartland",
+                  "description": "An incredible story of how an ordinary man risked his life to stop an attack.",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/the-informant-fear-and-faith-in-the-heartland-aadf051e-6ce9-42ad-b579-09d4050ebe50?cmp=15941&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_Informant&utm_medium=Display&utm_source=OO_ABCNews&fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/the-informant-fear-and-faith-in-the-heartland-aadf051e-6ce9-42ad-b579-09d4050ebe50?cmp=15941&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_Informant&utm_medium=Display&utm_source=OO_ABCNews",
+                  "image": "https://s.abcnews.com/images/US/abcn_informant_hulu_1635345065769_hpMain_16x9_608.jpg",
+                  "imageAlt": "The Informant",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": "",
+                  "date": {
+                    "date": "2021-10-18T14:06:11Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "10/18/2021 14:06:11 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Out of the Shadows: The Man Behind the Steele Dossier",
+                  "description": "British ex-spy Christopher Steele is opening up about his bombshell dossier.",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/out-of-the-shadows-the-man-behind-the-steele-dossier-d53aac4a-d053-4675-a7c1-4e262ee397a8?cmp=15897&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_SteeleDossier&utm_medium=Display&utm_source=OO_ABCNews&fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/out-of-the-shadows-the-man-behind-the-steele-dossier-d53aac4a-d053-4675-a7c1-4e262ee397a8?cmp=15897&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_SteeleDossier&utm_medium=Display&utm_source=OO_ABCNews",
+                  "image": "https://s.abcnews.com/images/Politics/dossier-abc-ml-211018_1634565329205_hpMain_16x9_608.jpg",
+                  "imageAlt": "Out of the Shadows: The Man Behind the Steel Dossier",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": "",
+                  "date": {
+                    "date": "2021-09-28T20:09:07Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "9/28/2021 20:09:07 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Wild Crime",
+                  "description": "The story of the most notorious murders ever committed in a National Park. ",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/wild-crime-be7a2204-5bc9-415d-967f-7f224dda03a4?cmp=15812&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_WildCrime&utm_medium=Display&utm_source=OO_ABCNews&fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/wild-crime-be7a2204-5bc9-415d-967f-7f224dda03a4?cmp=15812&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_WildCrime&utm_medium=Display&utm_source=OO_ABCNews",
+                  "image": "https://s.abcnews.com/images/US/abcn_wildcrime_1632859662120_hpMain_16x9_608.jpg",
+                  "imageAlt": "Wild Crime",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": "",
+                  "date": {
+                    "date": "2021-09-01T12:21:52Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "9/1/2021 12:21:52 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Final Hours, America’s Longest War",
+                  "description": "This special dives into the chaotic events in Afghanistan.",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/final-hours-americas-longest-war-0e5e10b9-defd-4b59-9730-2cb1c6bcf82b?cmp=15735&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_FinalHours&utm_medium=Display&utm_source=OO_ABCNews&fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/final-hours-americas-longest-war-0e5e10b9-defd-4b59-9730-2cb1c6bcf82b?cmp=15735&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_FinalHours&utm_medium=Display&utm_source=OO_ABCNews",
+                  "image": "https://s.abcnews.com/images/International/final_hours_title_ooh_clean_1630498831086_hpMain_16x9_608.jpg",
+                  "imageAlt": "Final Hours, America's Longest War",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": "",
+                  "date": {
+                    "date": "2021-08-16T17:24:14Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "8/16/2021 17:24:14 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Superstar",
+                  "description": "An intimate look at the mavericks who shaped American culture.",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/superstar-29b2736e-e6e6-4320-a3f2-c8aaaab5b912cmp=15666&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_Superstar&utm_medium=Display&utm_source=OO_ABCNews?fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/superstar-29b2736e-e6e6-4320-a3f2-c8aaaab5b912cmp%3D15666%26utm_campaign%3DOO_ABCNews_OGCarousel_OnChannel_Superstar%26utm_medium%3DDisplay%26utm_source%3DOO_ABCNews",
+                  "image": "https://s.abcnews.com/images/US/superstar_main_art_2_1629134502510_hpMain_16x9_608.jpg",
+                  "imageAlt": "Superstar",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": "",
+                  "date": {
+                    "date": "2021-06-17T15:07:44Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "6/17/2021 15:07:44 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "The Housewife and the Hustler ",
+                  "description": "Inside the real-life legal drama facing Erika Jayne and legal titan Tom Girardi.",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/the-housewife-and-the-hustler-e06b93e4-61ae-4147-bbd6-6cac55e481a4?cmp=15375&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_Housewife&utm_medium=Display&utm_source=OO_ABCNews&fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/the-housewife-and-the-hustler-e06b93e4-61ae-4147-bbd6-6cac55e481a4?cmp=15375&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_Housewife&utm_medium=Display&utm_source=OO_ABCNews",
+                  "image": "https://s.abcnews.com/images/GMA/ABCN_ERIKAJAYNE_FF_11920x1080_V4_1623269919513_hpMain_16x9_608.jpg",
+                  "imageAlt": "The Housewife and the Hustler",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": "",
+                  "date": {
+                    "date": "2021-07-29T17:12:59Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "7/29/2021 17:12:59 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "Tulsa's Buried Truth",
+                  "description": "100 years ago a white mob destroyed a black neighborhood known as Black Wall St.",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/tulsas-buried-truth-a8fc897a-7588-42b0-b811-660196448c51?cmp=15374&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_Tulsa&utm_medium=Display&utm_source=OO_ABCNews&fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/tulsas-buried-truth-a8fc897a-7588-42b0-b811-660196448c51?cmp=15374&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_Tulsa&utm_medium=Display&utm_source=OO_ABCNews",
+                  "image": "https://s.abcnews.com/images/US/ABCNL_TULSA_FF_1280X720_POST_1623173603921_hpMain_16x9_608.jpg",
+                  "imageAlt": "Tulsa's Buried Truth",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": "",
+                  "date": {
+                    "date": "2021-06-17T15:08:13Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "6/17/2021 15:08:13 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "GameStopped",
+                  "description": "A look at the GameStop cultural phenomenon and its impact on everyday investors.",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/gamestopped-d3603a76-5963-41dd-8f8a-b2428e720acb?cmp=15372&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_Gamestopped&utm_medium=Display&utm_source=OO_ABCNews&fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/gamestopped-d3603a76-5963-41dd-8f8a-b2428e720acb?cmp=15372&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_Gamestopped&utm_medium=Display&utm_source=OO_ABCNews",
+                  "image": "https://s.abcnews.com/images/Business/ABCNO_GAMESTOPPED_HULU_PA_1920X1080_1623173143518_hpMain_16x9_608.jpg",
+                  "imageAlt": "Game Stopped",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": "",
+                  "date": {
+                    "date": "2021-06-17T15:08:39Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "6/17/2021 15:08:39 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "24 Hours: Assault on the Capitol",
+                  "description": "A detailed timeline of events surrounding the deadly siege of the U.S. Capitol.",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/24-hours-assault-on-the-capitol-46663918-924b-41a0-a2ac-e60d8097de9b?cmp=15371&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_24Hours&utm_medium=Display&utm_source=OO_ABCNews&fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/24-hours-assault-on-the-capitol-46663918-924b-41a0-a2ac-e60d8097de9b?cmp=15371&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_24Hours&utm_medium=Display&utm_source=OO_ABCNews",
+                  "image": "https://s.abcnews.com/images/Politics/Capitol_1621007964061_hpMain_16x9_608.jpg",
+                  "imageAlt": "24 Hours: Assault on the Capitol",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": "",
+                  "date": {
+                    "date": "2021-06-17T15:08:53Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "6/17/2021 15:08:53 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "The American Royal Baby",
+                  "description": "An insider's look at the life Prince Harry and Meghan Markle's new daughter. ",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/the-american-royal-baby-fa0f2148-a9aa-401b-ae46-d9e470daa1ff?cmp=15370&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_RoyalBaby&utm_medium=Display&utm_source=OO_ABCNews&fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/the-american-royal-baby-fa0f2148-a9aa-401b-ae46-d9e470daa1ff?cmp=15370&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_RoyalBaby&utm_medium=Display&utm_source=OO_ABCNews",
+                  "image": "https://s.abcnews.com/images/GMA/americanroyalbaby_1623088748617_hpMain_16x9_608.jpg",
+                  "imageAlt": "The American Royal Baby",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }, {
+                  "id": "",
+                  "date": {
+                    "date": "2021-06-17T15:09:06Z",
+                    "preFormat": "relative",
+                    "postFormat": "MMMM DD",
+                    "useShort": false,
+                    "text": "6/17/2021 15:09:06 GMT",
+                    "threshold": 4,
+                    "thresholdType": "hours"
+                  },
+                  "title": "OnlyFans: Selling Sexy",
+                  "description": "Inside the voyeuristic and profit-making world of the online platform OnlyFans.",
+                  "type": "embedded",
+                  "location": "https://www.hulu.com/series/onlyfans-selling-sexy-60c749b8-96a4-48aa-949a-954dc0b14a58?cmp=15373&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_OnlyFans&utm_medium=Display&utm_source=OO_ABCNews&fromLive=true",
+                  "section": "abcnews",
+                  "share": "https://www.hulu.com/series/onlyfans-selling-sexy-60c749b8-96a4-48aa-949a-954dc0b14a58?cmp=15373&utm_campaign=OO_ABCNews_OGCarousel_OnChannel_OnlyFans&utm_medium=Display&utm_source=OO_ABCNews",
+                  "image": "https://s.abcnews.com/images/Video/ABCN_HULU_ONLYFANS_FF_1920x1080_1623173340362_hpMain_16x9_608.jpg",
+                  "imageAlt": "OnlyFans: Selling Sexy",
+                  "isExternal": true,
+                  "isLightboxVideo": false,
+                  "link": {
+                    "linkTracking": {}
+                  }
+                }],
+                "playlist": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+                "videoPlaylist": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+              },
+              "columns": 3,
+              "mobileOnly": false,
+              "viewProps": {
+                "link": "https://www.hulu.com/network/abc-news-2662d112-7114-4c6b-96fd-cb9e68a27eee?cmp=14855&utm_campaign=OO_ABCNews_Website_OffChannel_NetworkPage&utm_medium=Display&utm_source=OO_ABCNews",
+                "logo": "https://s.abcnews.com/assets/dtci/images/hulu.svg",
+                "title": "ABC News Specials on",
+                "mobileDisplay": true,
+                "tabletDisplay": true,
+                "desktopDisplay": true
+              }
+            }],
+            "mobileOnly": false,
+            "desktopOnly": false,
+            "showHeader": true,
+            "className": "LivePage"
+          }, {
+            "displayName": "",
+            "headerLogo": null,
+            "type": "",
+            "subType": "RSIdxFeed",
+            "viewProps": {},
+            "blocks": [{
+              "displayName": "",
+              "componentKey": "platformBlock",
+              "type": "platforms",
+              "items": {
+                "linkStory": {
+                  "title": "Share a story idea with ABC News Live",
+                  "url": "https://abcnews.go.com/US/viewers-voice-story-share-abc-news-live/story?id=70748073"
+                },
+                "platforms": [{
+                  "logo": "https://s.abcnews.com/assets/dtci/icomoon/svg/devices_logos/hulu.svg",
+                  "altImage": "Hulu"
+                }, {
+                  "logo": "https://s.abcnews.com/assets/dtci/icomoon/svg/devices_logos/roku.svg",
+                  "altImage": "Roku"
+                }, {
+                  "logo": "https://s.abcnews.com/assets/dtci/icomoon/svg/devices_logos/firetv.svg",
+                  "altImage": "Fire TV"
+                }, {
+                  "logo": "https://s.abcnews.com/assets/dtci/icomoon/svg/devices_logos/appletv.svg",
+                  "altImage": "Apple TV"
+                }, {
+                  "logo": "https://s.abcnews.com/assets/dtci/icomoon/svg/devices_logos/samsungtvplus.svg",
+                  "altImage": "Samsung TV Plus"
+                }, {
+                  "logo": "https://s.abcnews.com/assets/dtci/icomoon/svg/devices_logos/youtube.svg",
+                  "altImage": "Youtube"
+                }, {
+                  "logo": "https://s.abcnews.com/assets/dtci/icomoon/svg/devices_logos/tubi.svg",
+                  "altImage": "Tubi"
+                }, {
+                  "logo": "https://s.abcnews.com/assets/dtci/icomoon/svg/devices_logos/xumo.svg",
+                  "altImage": "Xumo"
+                }]
+              },
+              "columns": 3,
+              "mobileOnly": false,
+              "viewProps": {
+                "title": "",
+                "mobileDisplay": true,
+                "tabletDisplay": true,
+                "desktopDisplay": true
+              }
+            }],
+            "mobileOnly": false,
+            "desktopOnly": false,
+            "showHeader": false,
+            "className": "LivePage"
+          }],
+          "metadata": {
+            "id": "17588648",
+            "keywords": "Live News Stream, live updates, abc news",
+            "title": "ABC News Live - 24/7 live news stream",
+            "canonicalUrl": "https://abcnews.go.com/Live/",
+            "metaDescription": "Watch ABC News live news stream and get 24/7 latest, breaking news coverage, and live video.",
+            "linkHeadline": "ABC News Live Video"
+          },
+          "pageHeading": "Live News",
+          "pageName": "Live",
+          "displayAdKeyValues": {
+            "tag": "abcnews/live|L|i|v|e| |N|e|w|s| |S|t|r|e|a|m|,| |l|i|v|e| |u|p|d|a|t|e|s|,| |a|b|c| |n|e|w|s",
+            "objid": "17588648",
+            "pgn": "Live",
+            "pgtyp": "index",
+            "lang": "en",
+            "sp": "abcnews",
+            "programmatic": "true",
+            "bundleId": "com.abcnews"
+          },
+          "masthead": {}
+        }
+      },
+      "analytics": {
+        "accountID": "wdgnewabcnews,wdgasec,wdgnewabcnweb,wdgnewabcnewsrollup",
+        "ns": "abcnews",
+        "pageName": "abcnews:live",
+        "pageType": "section",
+        "pageUrl": "abcnews.go.com/Live/",
+        "globalSpecVersion": "v1.08",
+        "siteDifferentiator": "abcn:site",
+        "tagID": "g_page01",
+        "section": "live",
+        "trackPrefix": "none",
+        "takeoverStatus": "none"
+      },
+      "taboola": {
+        "config": {
+          "network": "abcnews-abcnews",
+          "mode": "thumbnails-b",
+          "type": "other",
+          "targetType": "mix",
+          "placement": "Section Front Thumbnails",
+          "pageTypeOverrides": {
+            "story": {
+              "mode": "thumbnails-a",
+              "type": "article",
+              "targetType": "mix",
+              "placement": "Below Article Thumbnails"
+            },
+            "homepage": {
+              "mode": "thumbnails-b",
+              "type": "home",
+              "targetType": "mix",
+              "placement": "Homepage Thumbnails"
+            },
+            "section": {
+              "mode": "thumbnails-b",
+              "type": "other",
+              "targetType": "mix",
+              "placement": "Section Front Thumbnails"
+            },
+            "liveBlog": {
+              "mode": "thumbnails-d",
+              "type": "other",
+              "targetType": "mix",
+              "placement": "Blog"
+            }
+          },
+          "pageType": "section"
+        }
+      }
+    },
+    "request": {
+      "headers": {},
+      "httpVersion": "1.1",
+      "method": "GET",
+      "url": "/Live/",
+      "vary": {
+        "host": "abcnews.go.com",
+        "cached": true,
+        "path": "/Live/",
+        "forwarded-proto": "https",
+        "device": "desktop",
+        "country": "us"
+      }
+    },
+    "viewport": {
+      "width": 1260,
+      "height": 0,
+      "scrollX": 0,
+      "scrollY": 0
+    }
+  };
+</script>
+
+----------------------------------------
+// sample XHR extractor
+
+{
+  var media = json["channel"]["item"]["media-group"]["media-content"]
+
+  var media_filter = function(media_item) {
+    return (
+         (media_item instanceof Object)
+      && (media_item.temporalType === 'live')
+      && (media_item["@attributes"] instanceof Object)
+      && (media_item["@attributes"]["isLive"] === 'true')
+      && (media_item["@attributes"]["medium"] === 'video')
+      && (media_item["@attributes"]["type"])
+      && (media_item["@attributes"]["url"])
+    )
+  }
+
+  var media_map = function(media_item) {
+    return {
+      video_type: media_item["@attributes"]["type"].toLowerCase(),
+      video_url:  media_item["@attributes"]["url"]
+    }
+  }
+
+  // most  preferred format has highest index
+  // least preferred format has  0 index
+  // unrecognized    format has -1 index
+  var media_sort_order = ['application/x-mpegurl', 'application/dash+xml', 'video/mp4', 'video/f4m'].reverse()
+
+  var media_sort = function(media_item_1, media_item_2) {
+    var t1 = media_item_1.video_type
+    var t2 = media_item_2.video_type
+
+    var i1 = media_sort_order.indexOf(t1)
+    var i2 = media_sort_order.indexOf(t2)
+
+    // order from most preferred format to least
+    return (i1 > i2)
+      ? -1
+      : (i1 < i2)
+        ? 1
+        : 0
+  }
+
+  media = media.filter(media_filter)
+  media = media.map(media_map)
+  media = media.sort(media_sort)
+
+  console.log(JSON.stringify(media, null, 2))
+}
+
+result:
+=======
+
+[
+  {
+    "video_type": "application/x-mpegurl",
+    "video_url": "https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8?rays=hjigfedcba&ad.flex=15&ad.access_level=0&expand=drmOff&v=3&ad.adunit=/abc-news/abcnews.com/web/video"
+  },
+  {
+    "video_type": "application/x-mpegurl",
+    "video_url": "https://abclive2-lh.akamaihd.net/i/abc_preview11@425086/master.m3u8"
+  },
+  {
+    "video_type": "video/f4m",
+    "video_url": "https://abclive2-lh.akamaihd.net/z/abc_live11@423404/manifest.f4m"
+  }
+]
+
+----------------------------------------
+// sample DOM parser:
+
+{
+  var data  = window['__abcnews__']
+  var bands, band, block, video
+  var videos = []
+
+  bands = data.page.content.section.bands
+
+  if (Array.isArray(bands) && bands.length) {
+    for (var i1=0; i1 < bands.length; i1++) {
+      band = bands[i1]
+
+      if ((band instanceof Object) && Array.isArray(band.blocks) && band.blocks.length) {
+        for (var i2=0; i2 < band.blocks.length; i2++) {
+          block = band.blocks[i2]
+
+          if ((block instanceof Object) && (block.componentKey === 'liveVideoCarousel') && (block.items instanceof Object) && Array.isArray(block.items.playlist) && block.items.playlist.length) {
+            for (var i3=0; i3 < block.items.playlist.length; i3++) {
+              video = block.items.playlist[i3]
+
+              if ((video instanceof Object) && (video.videos instanceof Object) && video.title && video.videos.id) {
+                videos.push({
+                  url:      video.share || '',
+                  title:    video.title,
+                  video_id: video.videos.id
+                })
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  console.log(JSON.stringify(videos, null, 2))
+}
+
+result:
+=======
+
+[
+  {
+    "url": "https://abcnews.go.com/live/video/special-live-11",
+    "title": "ABC News Live",
+    "video_id": "abc_live11"
+  },
+  {
+    "url": "https://abcnews.go.com/live/video/special-live-08",
+    "title": "Senate meets for legislative business",
+    "video_id": "abc_live08"
+  },
+  {
+    "url": "https://abcnews.go.com/live/video/special-live-10",
+    "title": "Arctic blast moving East, flash flooding and mudslides in Hawaii: Radar",
+    "video_id": "abc_live10"
+  }
+]
+
+--------------------------------------------------------------------------------
+// https://abcnews.go.com/live/video/special-live-08
+
+----------------------------------------
+// sample DOM parser:
+
+result:
+=======
+
+[
+  {
+    "url": "https://abcnews.go.com/live/video/special-live-11",
+    "title": "ABC News Live",
+    "video_id": "abc_live11"
+  },
+  {
+    "url": "https://abcnews.go.com/live/video/special-live-08",
+    "title": "Senate meets for legislative business",
+    "video_id": "abc_live08"
+  },
+  {
+    "url": "https://abcnews.go.com/live/video/special-live-10",
+    "title": "Arctic blast moving East, flash flooding and mudslides in Hawaii: Radar",
+    "video_id": "abc_live10"
+  }
+]
+
+--------------------------------------------------------------------------------
